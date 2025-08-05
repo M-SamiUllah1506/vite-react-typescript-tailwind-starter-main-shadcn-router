@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "company": "Tech Solutions Inc.",
+    "location": "New York, NY",
+    "type": "Full-Time",
+    "salary": "$75,000 - $90,000",
+    "description": "Develop and maintain user interfaces using React.js.",
+    "postedAt": "2025-08-01"
+  },
+  {
+    "id": 2,
+    "title": "Backend Developer",
+    "company": "Innovative Softwares",
+    "location": "San Francisco, CA",
+    "type": "Part-Time",
+    "salary": "$45/hr",
+    "description": "Build and maintain REST APIs with Node.js and Express.",
+    "postedAt": "2025-07-29"
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Designer",
+    "company": "Creative Minds",
+    "location": "Remote",
+    "type": "Contract",
+    "salary": "$60/hr",
+    "description": "Design modern UI components and user experiences.",
+    "postedAt": "2025-07-25"
+  },
+  {
+    "id": 4,
+    "title": "Full Stack Developer",
+    "company": "Digital Spark",
+    "location": "Austin, TX",
+    "type": "Full-Time",
+    "salary": "$95,000 - $110,000",
+    "description": "Work on both frontend and backend of web applications using MERN stack.",
+    "postedAt": "2025-08-02"
+  },
+  {
+    "id": 5,
+    "title": "React Developer",
+    "company": "NextGen Apps",
+    "location": "Remote",
+    "type": "Internship",
+    "salary": "Stipend",
+    "description": "Assist in building components and pages with React and Tailwind CSS.",
+    "postedAt": "2025-08-04"
+  }
+]
