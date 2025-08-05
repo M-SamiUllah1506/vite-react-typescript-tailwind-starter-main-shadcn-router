@@ -28,14 +28,8 @@ Template for vite, React + tailwindcss + TypeScript projects with some tools pre
 - [Prettier 2](https://prettier.io/)
 - [VS Code settings](https://code.visualstudio.com/)
 
-## Usage
 
-Create a new project from this template by clicking the "Use this template" button:
 
-![](assets/template-usage.png)
 
-```bash
-yarn
-yarn dev
-yarn test
-```
+
+
