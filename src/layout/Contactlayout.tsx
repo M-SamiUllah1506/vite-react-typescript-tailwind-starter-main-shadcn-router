@@ -5,7 +5,7 @@ const Contactlayout = () => {
   return (
     <div>
       //**
-
+     import command {}
       */
       <Contant />
       <Outlet />
