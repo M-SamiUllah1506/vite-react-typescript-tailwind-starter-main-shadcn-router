@@ -86,11 +86,48 @@
 
 // export default App
 
+// // import React from 'react'
+// // import Home from './Pages/Home'
+// // import Navbar from './components/Navbar'
+// // import About from './Pages/About';
+// // import Product from './Pages/Product'
+// // import Contant from './Pages/Contant';
+// // import { Routes, Route } from 'react-router-dom';
+// // import Contactlayout from './layout/Contactlayout';
+// // import ContactInfo from './components/ContactInfo';
+// // import ContactForm from './components/ContactForm';
+// // import Notfound from './Pages/Notfound';
+// // import Joblayout from './layout/Joblayout';
+// // import Jobs from './Pages/Jobs';
+// // const App = () => {
+// //   return (
+// //     <div>
+// //       <Navbar />
+// //       <Routes>
+// //         <Route path='/Home' element={<Home />} />
+// //         <Route path='/About' element={<About />} />
+// //         <Route path='/Product' element={<Product />} />
+// //         <Route path='/Contant' element={<Contactlayout />}>
+
+// //           <Route path='Info' element={<ContactInfo />} />
+// //           <Route path='Form' element={<ContactForm />} />
+// //         </Route>
+// //         <Route path='Jobs' element={<Joblayout />}>
+// //           <Route index element={<Jobs />} />
+// //         </Route>
+// //         <Route path='*' element={<Notfound />} />
+// //       </Routes>
+// //     </div>
+// //   )
+// // }
+// // export default App
+
 // import React from 'react'
 // import Home from './Pages/Home'
 // import Navbar from './components/Navbar'
 // import About from './Pages/About';
 // import Product from './Pages/Product'
+// import Contant from './Pages/Contant';
 // import { Routes, Route } from 'react-router-dom';
 // import Contactlayout from './layout/Contactlayout';
 // import ContactInfo from './components/ContactInfo';
@@ -120,26 +157,3 @@
 //   )
 // }
 // export default App
-
-// src/App.tsx
-import React from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import { increment, decrement, incrementByAmount } from './Features/appSlice'
-
-const App = () => {
-  const count = useSelector((state: any) => state.counter.value) // using `any` for simplicity
-  const dispatch = useDispatch()
-
-  return (
-    <div className="text-center mt-10">
-      <h1 className="bg-red-600 text-3xl mb-4">Counter: {count}</h1>
-      <button onClick={() => dispatch(increment())} className="bg-green-600 px-4 py-2 text-white mx-1">+</button>
-      <button onClick={() => dispatch(decrement())} className="bg-red-600 px-4 py-2 text-white mx-1">-</button>
-      <button onClick={() => dispatch(incrementByAmount(5))} className="bg-blue-600 px-4 py-2 text-white mx-1">+5</button>
-    </div>
-  )
-}
-
-export default App
-
-

@@ -4,10 +4,13 @@ import { Outlet } from 'react-router-dom';
 const Contactlayout = () => {
   return (
     <div>
-           <Contant/>
-           <Outlet/>
+      //**
+     import command {}
+      */
+      <Contant />
+      <Outlet />
     </div>
   )
 }
 
-export default Contactlayout
+export default Contactlayout;
