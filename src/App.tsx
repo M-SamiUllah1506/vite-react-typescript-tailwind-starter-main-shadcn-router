@@ -157,3 +157,38 @@
 //   )
 // }
 // export default App
+// import { useDispatch, useSelector } from 'react-redux'
+// import { increment, decrement, increaseByAmount } from './Features/appSlice'
+
+// const App = () => {
+//     const count = useSelector((state:any) => state.counter.value)
+//     const dispatch = useDispatch()
+
+//     return (
+//         <div className="text-center mt-10">
+//             <h1 className="bg-red-600 text-3xl mb-4">Counter: {count}</h1>
+//             <button onClick={() => dispatch(increment())} className="bg-green-600 px-4 py-2 text-white mx-1">+</button>
+//             <button onClick={() => dispatch(decrement())} className="bg-red-600 px-4 py-2 text-white mx-1">-</button>
+//             <button onClick={() => dispatch(increaseByAmount(54))} className="bg-green-400 px-4 py-2 text-white mx-1">5</button>
+//         </div>
+//     )
+// }
+
+// export default App
+
+
+
+// src/App.tsx
+import React from 'react';
+import Buttons from './components/Buttons';
+
+const App: React.FC = () => {
+    return (
+        <div className="container mx-auto my-10 text-center px-4">
+            <h1 className="text-4xl font-bold mb-6">Api Calling Through Axios </h1>
+            <Buttons />
+        </div>
+    );
+};
+
+export default App;
