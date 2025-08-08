@@ -176,19 +176,34 @@
 
 // export default App
 
-
+///######### Axios Api Calling And Fetching
 
 // src/App.tsx
-import React from 'react';
-import Buttons from './components/Buttons';
+// import React from 'react';
+// import Buttons from './components/Buttons';
 
-const App: React.FC = () => {
+// const App: React.FC = () => {
+//     return (
+//         <div className="container mx-auto my-10 text-center px-4">
+//             <h1 className="text-4xl font-bold mb-6">Api Calling Through Axios </h1>
+//             <Buttons />
+//         </div>
+//     );
+// };
+
+// export default App;
+
+
+import React from 'react'
+import AxiosTutorial from './AxiosTutorial/AxiosTutorial';
+import AxiosPost from './AxiosTutorial/AxiosPost';
+const App = () => {
     return (
-        <div className="container mx-auto my-10 text-center px-4">
-            <h1 className="text-4xl font-bold mb-6">Api Calling Through Axios </h1>
-            <Buttons />
+        <div>
+            <AxiosTutorial />
+            <AxiosPost />
         </div>
-    );
-};
+    )
+}
 
-export default App;
+export default App
