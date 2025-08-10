@@ -11,9 +11,10 @@ const Joblayout = () => {
         </div>
     )
 }
+//name
 
 export default Joblayout
 
 
-//hi make a function of apis 
+
 
