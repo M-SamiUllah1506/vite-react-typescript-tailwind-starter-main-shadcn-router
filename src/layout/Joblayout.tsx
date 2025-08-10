@@ -7,9 +7,13 @@ const Joblayout = () => {
                 Job Openeing
             </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <Outlet/>
+            <Outlet />
         </div>
     )
 }
 
 export default Joblayout
+
+
+//hi make a function of apis 
+
